@@ -38,7 +38,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "product-cart",
+  "name": "@fabiangarciav/product-cart",
   "author": "Fabian Garcia",
   "module": "dist/product-cart.esm.js",
   "size-limit": [
