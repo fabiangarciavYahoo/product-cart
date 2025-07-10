@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartImage renders without crashing with context 1`] = `
+<DocumentFragment>
+  <img
+    alt="Test Product"
+    class="productImg poppet"
+    src="test-image.jpg"
+  />
+</DocumentFragment>
+`;

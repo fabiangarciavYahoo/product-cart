@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductTitle renders without crashing with context 1`] = `
+<DocumentFragment>
+  <span
+    class="productDescription undefined"
+    style="background: black;"
+  >
+    Test Product $ 100
+  </span>
+</DocumentFragment>
+`;

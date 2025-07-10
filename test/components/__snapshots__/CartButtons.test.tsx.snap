@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartButtons renders without crashing with context 1`] = `
+<DocumentFragment>
+  <div
+    class="buttonsContainer test-class"
+  >
+    <button
+      class="buttonMinus"
+    >
+      -
+    </button>
+    <div
+      class="countLabel"
+    >
+      1
+    </div>
+    <button
+      class="buttonAdd "
+    >
+      +
+    </button>
+  </div>
+</DocumentFragment>
+`;
