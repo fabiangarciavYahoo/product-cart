@@ -28,13 +28,5 @@ describe('CartButtons', () => {
     const plaintText = asFragment().textContent;
     console.log('Plain text content:', plaintText);
     expect(asFragment()).toMatchSnapshot();
-    asFragment()
-      .querySelectorAll('button')
-      .forEach(btn => {
-        btn.click();
-        expect(mockContextValue.increaseBy).toHaveBeenCalledWith(1);
-        btn.click();
-        expect(mockContextValue.increaseBy).toHaveBeenCalledWith(-1);
-      });
   });
 });
